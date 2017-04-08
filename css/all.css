@@ -445,7 +445,7 @@ header {
 @media (min-width: 63em) {
   header {
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 
@@ -909,7 +909,7 @@ header {
 @media (min-width: 63em) {
   header {
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 
