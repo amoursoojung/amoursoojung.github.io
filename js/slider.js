@@ -14,7 +14,7 @@ function jssor_1_slider_init() {
   ];
 
   var jssor_1_options = {
-    $AutoPlay: 0,
+    $AutoPlay: 1,
     $SlideDuration: 800,
     $SlideEasing: $Jease$.$OutQuint,
     $CaptionSliderOptions: {
