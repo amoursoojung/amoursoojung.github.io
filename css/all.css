@@ -358,7 +358,6 @@ footer {
 @media (min-width: 12.5em) {
   .container {
     padding-top: 1em;
-    max-width: 12.5em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -371,7 +370,6 @@ footer {
 
 @media (min-width: 20em) {
   .container {
-    max-width: 18em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -384,7 +382,6 @@ footer {
 
 @media (min-width: 30em) {
   .container {
-    max-width: 30em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -397,7 +394,6 @@ footer {
 
 @media (min-width: 47.5em) {
   .container {
-    max-width: 50em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -410,7 +406,6 @@ footer {
 
 @media (min-width: 63em) {
   .container {
-    max-width: 80em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -709,11 +704,6 @@ nav {
   }
 }
 
-img:hover {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
 .overlay {
   width: 300px;
   height: 0;
@@ -821,7 +811,6 @@ img:hover {
 @media (min-width: 12.5em) {
   .container {
     padding-top: 1em;
-    max-width: 12.5em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -834,7 +823,6 @@ img:hover {
 
 @media (min-width: 20em) {
   .container {
-    max-width: 18em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -847,7 +835,6 @@ img:hover {
 
 @media (min-width: 30em) {
   .container {
-    max-width: 30em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -860,7 +847,6 @@ img:hover {
 
 @media (min-width: 47.5em) {
   .container {
-    max-width: 50em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -871,9 +857,18 @@ img:hover {
   }
 }
 
+@media (max-width: 600px) {
+  #logo {
+    font-size: 1.75em;
+    font-weight: 600;
+    color: white;
+    float: left;
+    letter-spacing: 0.075em;
+  }
+} 
+
 @media (min-width: 63em) {
   .container {
-    max-width: 80em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -885,7 +880,7 @@ img:hover {
 }
 
 #logo {
-  font-size: 2em;
+  font-size:1.75em;
   font-weight: 600;
   color: white;
   float: left;
