@@ -239,12 +239,6 @@ th {
 
 /* Custom Styles Start here! */
 
-* {
-  box-sizing: border-box;
-  -webkit-transition: all 0.33s ease-in-out;
-  transition: all 0.33s ease-in-out;
-}
-
 body {
   overflow-x: hidden;
 }
