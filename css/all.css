@@ -1,4 +1,4 @@
-/**
+oo/**
  This is all the reset styles, don't touch these!
  */
 html {
@@ -604,8 +604,8 @@ nav {
   margin: 0 auto;
   display: block;
   width: 50%;
-  height: 350px;
-  width: 350px;
+  height: 230px;
+  width: 230px;
   margin-top: 2em;
   background: url("profile-pic.png") center center no-repeat;
   background: url("profile-pic.png") center center no-repeat;
@@ -1124,8 +1124,8 @@ footer {
   margin:0 auto;
   top:0px;
   left:0px;
-  width:1300px;
-  height:500px;
+  width:800px;
+  height:400px;
   overflow:hidden;
   visibility:hidden;
 }
@@ -1134,7 +1134,7 @@ footer {
   position:relative;
   top:0px;
   left:0px;
-  width:1300px;
-  height:500px;
+  width:800px;
+  height:400px;
   overflow:hidden;
 }
