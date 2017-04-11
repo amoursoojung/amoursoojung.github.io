@@ -1124,8 +1124,8 @@ footer {
   margin:0 auto;
   top:0px;
   left:0px;
-  width:1300px;
-  height:500px;
+  width:800px;
+  height:400px;
   overflow:hidden;
   visibility:hidden;
 }
@@ -1134,7 +1134,7 @@ footer {
   position:relative;
   top:0px;
   left:0px;
-  width:1300px;
-  height:500px;
+  width:800px;
+  height:400px;
   overflow:hidden;
 }
